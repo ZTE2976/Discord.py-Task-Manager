@@ -28,7 +28,7 @@
       </ul>
     </li>
     <li>
-      <a href="#modules">Python Modules</a>
+      <a href="#python-modules">Python Modules</a>
       <ul>
       </ul>
     </li>
