@@ -40,7 +40,7 @@ class Host_info(commands.Cog):
     embed.add_field(name="CPU usage:", value=f"{round(cpuutilization.get_utilization())}% CPU usage from an {cpuinfo.get_cpu_info()['brand_raw']}.", inline=True)
     embed.add_field(name="Memory usage:", value=f"{round(psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)}% of virtual memory free.", inline=True)
     embed.add_field(name="Ping:", value=f'{round(bot.latency * 1000)} ms', inline=True)
-    embed.add_field(name="More:", value="[☰ - Github Page](https://zte2976exe.repl.co/youtubemusic.html)", inline=False)
+    embed.add_field(name="More:", value="[☰ - Github Page](https://github.com/ZTE2976/Discord.py-Task-Manager)", inline=False)
     embed.set_footer(text="v1.0  |  ZTE2976")
     await ctx.send(file=file, embed=embed)
 
